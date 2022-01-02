@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+
+    background-image: url("indeximg/pexels-mark-stebnicki-2749165.jpg"); 
+    background-color: #cccccc;  
+    height:760px;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  
+}
+#nav a{
+   color: black;
+   font-size:20px;
+   font-weight: bold;
+}
+#nav ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#nav ul li{
+  margin-top: 27px;
+  margin-left: 62px;
+  font-size: 15px;
+}
+#nav ul li a{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+#nav ul li a:hover{
+  background-color: black;
+  color: white;
+}
+#form{
+  height: 380px;
+  width: 290px;
+ 
+  padding: 20px 10px;
+ 
+}
